@@ -94,9 +94,9 @@ console.log(z);
 function printUpTo(x){
       if(x<0){
           console.log("Number is negitive")
-          return False;
+          return false;
       }
-      for(var i =0, i <= x, i++){
+      for(var i =0; i <= x; i++){
           console.log(i);
       }
 }
@@ -108,7 +108,7 @@ console.log(y); // should print false
 // Problem 2
 function printSum(x){
   var sum = 0;
-  for(var i = 0, i<=x, i++){
+  for(var i = 0; i<=x; i++){
       sum += i
   }
   return sum;
@@ -134,7 +134,7 @@ function largest_e(array){
     // Create a function that returns the largest element in a given array.
     // For example largestElement( [1,30,5,7] ) should return 30.
     var max = array[0];
-    for(var i=1, i< array.length, i++){
+    for(var i=1; i< array.length; i++){
         if (array[i]> max){
             max = array[i];
         }
