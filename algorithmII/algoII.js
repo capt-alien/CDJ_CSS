@@ -85,3 +85,62 @@ function looping(x,y){
 z = looping(3,5);
 console.log(z);
 // console: 0,0,0,0,0,1,2,3,4,0,2,4,6,8,15
+
+
+
+// ============PART 2============
+
+// problem 1:
+function printUpTo(x){
+      if(x<0){
+          console.log("Number is negitive")
+          return False;
+      }
+      for(var i =0, i <= x, i++){
+          console.log(i);
+      }
+}
+printUpTo(1000); // should print all the integers from 1 to 1000copy
+y = printUpTo(-10); // should return false
+console.log(y); // should print false
+
+
+// Problem 2
+function printSum(x){
+  var sum = 0;
+  for(var i = 0, i<=x, i++){
+      sum += i
+  }
+  return sum;
+}
+y = printSum(255) // should print all the integers from 0 to 255 and with each integer print the sum so far.
+console.log(y) // should print 32640
+
+
+
+// Problem 3
+function printSumArray(x){
+  var sum = 0;
+  for(var i=0; i<x.length; i++) {
+    sum += x[i]
+  }
+  return sum;
+}
+console.log( printSumArray([1,2,3]) ); // should log 6
+
+// **BONUS**  Largest Element
+
+function largest_e(array){
+    // Create a function that returns the largest element in a given array.
+    // For example largestElement( [1,30,5,7] ) should return 30.
+    var max = array[0];
+    for(var i=1, i< array.length, i++){
+        if (array[i]> max){
+            max = array[i];
+        }
+    }
+    return max
+
+}
+
+console.log(largest_e([1,30,5,7]))
