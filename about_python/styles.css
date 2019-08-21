@@ -1,0 +1,127 @@
+/*Helper Credit: Alex*/
+/*
+* {
+	 outline: 1px dotted red;
+	}*/
+.container {
+	width: auto;
+	min-height: auto;
+	background-color: white;
+}
+.header {
+	min-height: 50px
+}
+.main {
+	width:auto;
+	min-height: 1175px;
+	background-color: purple;
+	margin:25px;
+	align-items: center;
+}
+.headerbox{
+	width:auto;
+	height: auto;
+	background-color: grey;
+	margin: auto;
+	color: white;
+	overflow: auto;
+}
+.self_port {
+    border: 2px solid black;
+    display: inline-block;
+    width: 40%;
+    margin: 30px;
+}
+.about {
+    border: 2px solid black;
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin: 30px;
+}
+.jobs{
+	border: 7px solid black;
+    margin: 0 0 0 20px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+.p{
+	text-align: left;
+	padding: 5px;
+}
+.imgContent {
+  width: 300px;
+  height: auto;
+}
+.imgtech{
+	width: 50px;
+	height: 50px
+}
+.imgsmall{
+	width: 30px;
+	height: 30px
+}
+.button{
+	width: 100px;
+	background-color: darkblue;
+	color: white;
+	border: 3px solid black;
+	border-radius: 15px;
+	height: 30px;
+	text-align: center;
+	padding: 5px;
+	margin: 5 30 5 30px;
+}
+.centerbut {
+	display: flex;
+  	align-items: bottom;
+  	justify-content: center;
+}
+.footer{
+	position: relative;
+  	left: 0;
+  	bottom:0;
+  	width: 100%;
+  	height: 70px;
+	text-align: center;
+  	background-color: white;
+}
+.footer_row{
+  	width: 100%;
+  	display: flex;
+  	align-items: bottom;
+  	justify-content: center;
+}
+img {
+  width: 500px;
+  height: auto;
+}
+a{
+	color: black;
+	padding: 5px;
+}
+h1{
+	font-family: arial;
+	min-width: 700px;
+	margin:25px;
+	font-style: italic;
+	color: black;
+	display: inline-block;
+}
+h2{
+	font-family: arial ;
+	color: black;
+	margin:20px;
+	text-align: right;
+	display: inline-block;
+}
+h3{
+	font-family: arial ;
+	margin:20px;
+	text-align: right;
+	display: inline-block;
+}
+p{
+	margin: 10px;
+}
