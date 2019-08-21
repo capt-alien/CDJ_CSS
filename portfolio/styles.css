@@ -14,7 +14,7 @@
 }
 .main {
 	width:1250px;
-	min-height: 900px;
+	min-height: 1050px;
 	background-color: purple;
 	margin:25px;
 }
@@ -30,6 +30,7 @@
     width: 40%;
     vertical-align: top;
     margin: 30px;
+    padding: 10px;
 }
 .jobs{
 	border: 7px solid black;
@@ -39,15 +40,31 @@
     display: inline-block;
     vertical-align: top;
 }
+.imgContent {
+  width: 300px;
+  height: auto;
+}
+.imgtech{
+	width: 50px;
+	height: 50px
+}
+.button{
+	width: 100px;
+	background-color: lightblue;
+	border: 3px solid black;
+	border-radius: 15px
+	height: 30px;
+	text-align: center;
+	padding: 15px;
+	margin: 5 30 5 30px;
+
+}
 
 img {
   width: 500px;
   height: auto;
 }
-.imgContent {
-  width: 300px;
-  height: auto;
-}
+
 a{
 	color: black;
 	padding: 5px;
@@ -62,6 +79,10 @@ h1{
 h2{
 	font-family: arial ;
 	color: black;
-text-align: right;
+	text-align: right;
 	display: inline-block;
+}
+
+p{
+	margin: 10px;
 }
