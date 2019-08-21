@@ -1,0 +1,67 @@
+/*Helper Credit: Alex*/
+
+* {
+	 outline: 1px dotted red; 
+	}
+
+.container {
+	width: 1600px;
+	min-height: 950px;
+	background-color: white;
+}
+.header {
+	min-height: 50px
+}
+.main {
+	width:1250px;
+	min-height: 900px;
+	background-color: purple;
+	margin:25px;
+}
+.self_port {
+    border: 2px solid black;
+    display: inline-block;
+    width: 4 0%;
+    margin: 30px;
+}
+.about {
+    border: 2px solid black;
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin: 30px;
+}
+.jobs{
+	border: 7px solid black;
+    margin: 0 0 0 20px;
+    width: 300px;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+img {
+  width: 500px;
+  height: auto;
+}
+.imgContent {
+  width: 300px;
+  height: auto;
+}
+a{
+	color: black;
+	padding: 5px;
+}
+h1{
+	font-family: arial;
+	min-width: 800px;
+	font-style: italic;
+	color: black;
+	display: inline-block;
+}
+h2{
+	font-family: arial ;
+	color: black;
+text-align: right;
+	display: inline-block;
+}
