@@ -67,9 +67,11 @@
 	width: 100%;
 	height: auto;
 	text-align: center;
+	vertical-align: top;
+
 }
 #left_box{
-	padding:5%;
+	padding:3%;
 	width :300px;
 	height: auto;
 	color: white;
@@ -99,10 +101,12 @@
 }
 .subtext_box{
 	margin: 20px;
+	margin-left: 40px;
 	padding: 20px;
 	height:300px;
 	width:40%;	
 	border-top: 5px solid #477FAD;
+	vertical-align: top;
 	display: inline-block;
 	text-align: center;
 }
@@ -111,6 +115,9 @@
 }
 .p2 {
 	color: #9DC2E1;
+}
+#subtext_box_left{
+	margin-left: 107px;
 }
 
 
@@ -135,5 +142,8 @@ h2{
   	display: flex;
   	align-items: bottom;
   	justify-content: center;
+}
 
+.footer_row a {
+	margin:10px;
 }
