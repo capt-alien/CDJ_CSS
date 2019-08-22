@@ -1,8 +1,8 @@
 /*#!css*/
-* {
+/** {
 	 outline: 1px dotted red;
 	 margin: 0px;
-	}
+	}*/
 #container {
 	width: auto;
 	height: auto;
@@ -111,7 +111,7 @@
 	text-align: center;
 }
 .subtext_box li{
-	margin: 1% 5% 0% 5%;
+	margin: 1% 5% 0% 5%;-m
 }
 .p2 {
 	color: #9DC2E1;
