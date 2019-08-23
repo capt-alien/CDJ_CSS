@@ -1,6 +1,6 @@
 /*#!css*/
 * {
-	outline: 1px dotted red;
+	outline: 0px dotted red;
 	margin: 0px;
 }
 #container{
@@ -60,10 +60,10 @@
 }
 #resources{
 	width: auto;
-	height: 230px;
+	height: 260px;
 	border-bottom: 1px solid black;
-	/*padding:15px;*/
 	font-weight: bold;
+	margin-bottom: 30px;
 }
 #resources h3{
 	margin:15px;
@@ -158,6 +158,7 @@
 #house{
 	width: 40px;
 	height:40px;
+	margin-top: 15px;
 	display: inline-block;
 }
 #phone{
@@ -210,7 +211,7 @@
 
 #the_big_three{
 	width: auto;
-	height: auto;
+	height: 200px;
 	display: block;
 	margin-top: 50px;
 	border-top: 5px solid #3885E0;
@@ -221,6 +222,18 @@
 	display: inline-block;
 	width: 600px;
 	padding-left:50px;
+}
 
-
+/*TEXT COLORS*/
+.r {
+	color: red;
+}
+.db{
+	color: darkblue;
+}
+.lb{
+	color: #3398B0;
+}
+.bold{
+	font-weight: bold;
 }
