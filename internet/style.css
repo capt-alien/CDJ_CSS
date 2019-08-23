@@ -50,16 +50,30 @@
 	padding-top: 20px
 }
 #left_sidebar{
-	width: 400px;
+	width: 250px;
 	min-height: 700px;
-	margin: 20px;
 	display: inline-block;
+	margin:20px;
 }
+#resources{
+	width: auto;
+	height: 150px;
+	border-bottom: 1px solid black;
+	padding:10px;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
 #main_content{
 	position: absolute;
 	right: 20px;
 	display: inline-block;
-	width: 900px;
+	width: 700px;
 	min-height: 700px;
 }
 #sub_header{
