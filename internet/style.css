@@ -1,0 +1,83 @@
+/*#!css*/
+* {
+	outline: 1px dotted red;
+	margin: 0px;
+}
+#container{
+	background-color: white;
+	width: auto;
+	height: 1000px;
+}
+#head{
+	width: auto;
+	height: auto;
+}
+#logo{
+	width: 125px;
+	height: 125px;
+	display: inline-block;
+}
+#container h1{
+	display: inline-block;
+	font-style: Serif;
+	align-content: top;
+	vertical-align: top;
+	background-color: white;
+	height:50px;
+}
+#container h2{
+	display: block;
+	font-style: Serif;
+	color: white;
+	font-size: 30px;
+}
+#header_1{
+	width: auto;
+	display: block;
+	background-color: white;
+	height: 90px;
+	font-size: 20px;
+}
+#header_1 h1{
+	margin-top: 20px
+}
+#header_2{
+	width: auto;
+	display: block;
+	background-color: #4A7EAA;
+	height: 50px;
+	padding-left: 125px;
+	padding-top: 20px
+}
+#left_sidebar{
+	width: 400px;
+	min-height: 700px;
+	margin: 20px;
+	display: inline-block;
+}
+#main_content{
+	position: absolute;
+	right: 20px;
+	display: inline-block;
+	width: 900px;
+	min-height: 700px;
+}
+#sub_header{
+	width: 900px;
+	height: 75px;
+	border-bottom: 2px solid grey;
+	display: block;
+}
+#sub_content{
+	width: 900px;
+	height: 500px;
+	display: block;
+}
+#the_big_thre{
+	width: 900px;
+	height: 100px;
+	display: block;
+	border-top: 5px solid #3885E0;
+	border-left: 5px solid #3885E0;
+	border-right: 5px solid #3885E0;
+}
