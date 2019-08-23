@@ -8,6 +8,7 @@
 	width: auto;
 	height: 1000px;
 }
+/*HEAD*/
 #head{
 	width: auto;
 	height: auto;
@@ -49,6 +50,8 @@
 	padding-left: 125px;
 	padding-top: 20px
 }
+
+/*SIDEBAR*/
 #left_sidebar{
 	width: 250px;
 	min-height: 700px;
@@ -57,23 +60,77 @@
 }
 #resources{
 	width: auto;
-	height: 150px;
+	height: 230px;
 	border-bottom: 1px solid black;
-	padding:10px;
+	/*padding:15px;*/
 	font-weight: bold;
+}
+#resources h3{
+	margin:15px;
+}
+#resources p{
+	margin:15px;
+}
+#button_a {
+  background-color: #4C87B7; /* Blue */
+  border: 1px solid black;
+  border-radius: 25px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-top:20px;
+  width:250px;
+  font-size: 16px;
+}
+#button_b {
+  background-color: #EF7E00; /* Orange */
+  border: 1px solid black;
+  border-radius: 25px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-top:20px;
+  width:250px;
+  font-size: 16px;
+}
+#ad{
+	width: auto;
+	height: 400px;
+	background-image: url('images/ad_background.png');
+	padding:10px;
+	text-align:center;
+	margin-top: 15px;
+	}
+#ninja{
+	width: auto;
+	height: 200px;
+}
+#ad_button{
+	background-color: #44C7DF;
+	border: 1px solid black;
+	border-radius: 25px;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	display: block;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right:auto;
+	width:200px;
+	font-size: 16px;
 }
 
 
-
-
-
-
-
+/*MAIN*/
 #main_content{
 	position: absolute;
 	right: 20px;
 	display: inline-block;
-	width: 700px;
+	width: 800px;
 	min-height: 700px;
 }
 #sub_header{
@@ -82,7 +139,49 @@
 	border-bottom: 2px solid grey;
 	display: block;
 }
-#sub_content{
+#sh_left{
+	width: 100px
+	height:100px;
+	color:#28679F;
+	display: inline-block;
+
+}
+#house{
+	width: 40px;
+	height:40px;
+	display: inline-block;
+}
+#phone{
+	width: 70px;
+	height:70px;
+	display: inline-block;
+}
+#sh_left h5{
+	display: inline-block;
+}
+#sh_right{
+	width: 200px
+	height:100px;
+	color:#28679F;
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+}
+#sh_right_text{
+	display: inline-block;
+}
+#sh_right p{
+	display: block;
+	color: black;
+	font-size: 10px;
+	text-align:center;
+}
+#sh_right h3{
+	display: block;
+	font-size: 30px
+}
+
+#content{
 	width: 900px;
 	height: 500px;
 	display: block;
